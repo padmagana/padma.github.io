@@ -1,0 +1,57 @@
+body {
+  background-color: wheat;
+  color: crimson;
+}
+
+blockquote {
+  display: block;
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: none;
+}
+
+q:before {
+    content: open-quote;
+    font-weight: bold;
+    font-size:80px;
+    color: crimson;
+    position: relative; 
+    top: 0.3em;
+    left: -0.5em; 
+    font-family: 'Georgia'; 
+}
+
+q:after {
+    content: close-quote;
+    font-weight: bold;
+    font-size:80px;
+    color: crimson;
+  position: relative;
+     top: 0.3em;
+    right: -0.5em; 
+    margin-top: -30px;
+  margin-right: -40px;
+    font-family: 'Georgia'; 
+}
+
+blockquote cite {
+  color: coral;
+  font-size: 14px;
+  display: block;
+  margin-top: 2px;
+  position: relative;
+  float:right;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014";
+}
+
+.thumbnail {
+  background-color: wheat;
+  border: none;
+}
